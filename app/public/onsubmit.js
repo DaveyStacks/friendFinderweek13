@@ -2,12 +2,8 @@
 $(document).ready(function () {
     $('.modal').modal({
         show: false,
-        dismissible: false, // Modal can be dismissed by clicking outside of the modal
-        opacity: .5, // Opacity of modal background
-        inDuration: 2000, // Transition in duration
-        outDuration: 2000, // Transition out duration
-        startingTop: '4%', // Starting top style attribute
-        endingTop: '10%' // Ending top style attribute
+        dismissible: false,
+        opacity: .5
     });
 });
 // Activate submit button
