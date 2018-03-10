@@ -16,14 +16,14 @@ module.exports = function (app) {
     // Add new friend entry
     app.post('/api/friends', function (req, res) {
         // Capture the user input object
-        console.log(req.body);
+        // console.log(req.body);
         let userAnswers = req.body.scores;
 
         let allDiffs = [];
-
-        // finds the difference between the userAnswers array (by index) and each answer
-        // then sums each new array of differences and pushes to the userDiff array for each 'new people'
         let answers = [];
+        // finds the difference between the userAnswers array (by index) and each answer
+
+
 
         for (let i = 0; i < people.length; i++) {
             let x = userAnswers.map(function (item, index) {
