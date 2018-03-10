@@ -1,0 +1,29 @@
+.jumbotron, a, #modal .modal-content {
+    background-color: rgba(34, 255, 0, 0.304);
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1, h3, {
+    text-align: center;
+}
+
+body, .panel, .panel-title, .panel-heading, .row, .panel-default>.panel-heading {
+    background-color: rgba(34, 255, 0, 0.304);
+}
+
+.panel-title {
+    margin: 0;
+}
+
+.modal-action {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+#errorMsg {
+    color: red;
+    font-size: 18px;
+}
+

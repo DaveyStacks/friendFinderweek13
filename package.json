@@ -1,0 +1,25 @@
+{
+  "name": "friendfinderapp",
+  "version": "1.0.0",
+  "description": "An interactive application which takes your survey results and finds you the best friend match!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveyStacks/friendFinderweek13.git"
+  },
+  "author": "David R Coulombe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveyStacks/friendFinderweek13/issues"
+  },
+  "homepage": "https://github.com/DaveyStacks/friendFinderweek13#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1",
+    "path": "^0.12.7"
+  }
+}
