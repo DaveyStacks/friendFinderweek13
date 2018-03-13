@@ -17,8 +17,12 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
 app.use(bodyParser.text({ type: 'text/html' }))
 
 app.use(express.static('app/public'))
-require(path.join(__dirname, './app/routing/apiroutes'))(app);
-require(path.join(__dirname, './app/routing/htmlroutes'))(app);
+
+const configApiRoutes = require(path.join(__dirname, './app/routing/apiroutes'));
+configApiRoutes(app);
+
+const configHtmlRoutes = require(path.join(__dirname, './app/routing/htmlroutes'));
+configHtmlRoutes(app);
 
 
 

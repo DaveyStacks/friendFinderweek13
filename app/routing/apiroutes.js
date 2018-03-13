@@ -21,10 +21,8 @@ module.exports = function (app) {
 
         let allDiffs = [];
         let answers = [];
+
         // finds the difference between the userAnswers array (by index) and each answer
-
-
-
         for (let i = 0; i < people.length; i++) {
             let x = userAnswers.map(function (item, index) {
 
@@ -34,7 +32,7 @@ module.exports = function (app) {
             answers[i] = (x.reduce((a, b) => a + b, 0));
         }
 
-        //creates an array of all of the userDiffs named allDiffs and populates allDiffs with all userDiffs
+        //creates an array named allDiffs and populates allDiffs
 
         for (var i = 0; i < people.length; i++) {
             allDiffs.push(answers[i]);
